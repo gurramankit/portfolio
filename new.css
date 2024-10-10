@@ -572,49 +572,52 @@ button:hover {
 #timeline {
     text-align: center;
     padding: 50px 0;
-  }
-  
-  .timeline-container {
+}
+
+.timeline-container {
     position: relative;
     max-width: 800px;
     margin: auto;
-  }
-  
-  .timeline-item {
+}
+
+.timeline-item {
     display: flex;
     align-items: center;
     margin: 20px 0;
     position: relative;
-  }
-  
-  .timeline-item.left {
+}
+
+.timeline-item.left {
     flex-direction: row-reverse;
-  }
-  
-  .circle {
-    width: 100px;
-    height: 100px;
+}
+
+.circle {
+    width: 120px; /* Increased size of the circle */
+    height: 120px; /* Increased size of the circle */
     border-radius: 50%;
     background-color: #007bff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 20px;
-  }
-  
-  .org-logo {
-    width: 50%;
-    height: auto;
-  }
-  
-  .timeline-content {
+    overflow: hidden; /* Ensures the image fits inside the circle */
+}
+
+.org-logo {
+    width: 100%; /* Ensures the image takes the full width of the circle */
+    height: 100%; /* Ensures the image takes the full height of the circle */
+    object-fit: cover; /* Makes the image cover the circle without distortion */
+    border-radius: 50%; /* Ensures the image stays circular */
+}
+
+.timeline-content {
     background-color: #f0f0f0;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .timeline-item:before {
+}
+
+.timeline-item:before {
     content: '';
     position: absolute;
     width: 2px;
@@ -624,15 +627,16 @@ button:hover {
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
-  }
-  
-  .timeline-item.left:before {
+}
+
+.timeline-item.left:before {
     left: calc(50% - 30px);
-  }
-  
-  .timeline-item.right:before {
+}
+
+.timeline-item.right:before {
     left: calc(50% + 30px);
-  }
+}
+
   
 /* Certifications Section */
 .certifications {
