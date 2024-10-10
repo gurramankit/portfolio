@@ -664,7 +664,7 @@ button:hover {
 
 .certification-card img {
     width: 100%;
-    height: 150px;
+    height: auto;
     object-fit: cover;
     border-radius: 5px;
 }
