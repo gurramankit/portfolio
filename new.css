@@ -18,6 +18,12 @@ body {
     text-align: center;
 }
 
+/* Profile Picture Container */
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 /* Profile Picture Style */
 .hero img {
     width: 200px; /* Increase image width */
