@@ -1,7 +1,7 @@
 /* General styles for the entire page */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f0f4f8; /* Light blueish-gray */
 }
 
 /* Center Image and Text */
@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #d42f2f;
+    background: linear-gradient(135deg, #ff6f61, #d42f2f); /* Vibrant gradient */
     background-image: url('/newport/WhatsApp\ Image\ 2024-10-09\ at\ 14.04.03_65717ab7.jpg'); /* Replace with actual path or use a solid color */
     background-size: 100% 100%;
     /* background-size: cover; */
@@ -23,8 +23,8 @@ body {
 }
 
 .hero img {
-    width: 350px;
-    height: 350px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid #fff;
@@ -51,7 +51,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     padding: 0;
-    background-color: #333;
+    background: linear-gradient(90deg, #333, #555); /* Gradient from dark gray to lighter gray */
     margin: 0;
 }
 
@@ -143,7 +143,7 @@ h2.gradient-text {
 
 /* Logos Section */
 .logos-section {
-    background-color: #f8f8f8;
+    background-color: #fafafa; /* Very light gray */
     padding: 20px;
     text-align: center;
 }
@@ -163,7 +163,7 @@ h2.gradient-text {
     display: flex;
     align-items: center;
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #e1e8ee; /* Blue-gray for professional tone */
 }
 
 .about-img-container {
@@ -238,7 +238,7 @@ strong {
 .learn-more-section {
     text-align: center;
     padding: 60px 0;
-    background-color: #fff;
+    background-color: #f1f8e9; /* Light greenish for a fresh feel */
 }
 
 .learn-more-boxes {
@@ -248,7 +248,7 @@ strong {
 }
 
 .learn-more-box {
-    background-color: #ddd;
+    background-color: #e8f5e9; /* Slightly lighter green to separate the boxes */
     padding: 30px;
     border-radius: 10px;
     width: 150px;
@@ -269,7 +269,7 @@ strong {
 /* Skills Section */
 .skills-section {
     padding: 60px;
-    background-color: #f9f9f9;
+    background-color: #eceff1; /* Light gray-blue for the background */
     text-align: center;
 }
 
@@ -286,7 +286,8 @@ strong {
 }
 
 .skill-box {
-    background-color: #fff;
+    background-color: #ffffff; /* Keep boxes white */
+    border: 1px solid #e0e0e0;
     border-radius: 15px;
     padding: 20px;
     width: 200px;
@@ -329,7 +330,7 @@ strong {
 #projects {
     padding: 60px 0;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #e0f7fa; /* Light cyan for fresh background */
 }
 
 #projects h2 {
@@ -348,6 +349,7 @@ strong {
     width: 250px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
+    border-color: #b2ebf2; /* Subtle cyan border for project boxes */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -523,7 +525,7 @@ button:hover {
 }
 
 .popup-content {
-    background-color: #f4f4f4;
+    background-color: #ffffff; /* Clean white for focus */
     margin: auto;
     padding: 20px;
     width: 50%;
@@ -642,7 +644,7 @@ button:hover {
 .certifications {
     padding: 50px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #fce4ec;
 }
 
 .certifications h2 {
@@ -662,6 +664,7 @@ button:hover {
     width: 250px;
     text-align: center;
     background: white;
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -682,7 +685,7 @@ button:hover {
 
 
 #contact {
-    background-color: #f4f4f4;
+    background-color: #e8f5e9; /* Soft light green */
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
