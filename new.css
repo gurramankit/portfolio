@@ -377,7 +377,11 @@ strong {
     gap: 10px;
     justify-content: center;
 }
-
+.tools{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
 /* Adjusted tool-icon size to 20px */
 .tool-icon {
     width: 20px;  /* Reduced from 30px */
