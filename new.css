@@ -12,7 +12,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     background: linear-gradient(135deg, #ff6f61, #d42f2f); /* Vibrant gradient */
-    background-image: url('intro section images/second.jpg'); /* Replace with actual path or use a solid color */
+    background-image: url('intro section images/ankitintro.jpg'); /* Replace with actual path or use a solid color */
     background-size: cover; /* Cover the entire section */
     background-position: center;
     text-align: center;
@@ -92,7 +92,7 @@ nav ul li a:hover {
 .intro-section {
     text-align: center;
     padding: 100px 30px;
-    background: url('intro section images/abstract-banner-background-vector.jpg') no-repeat center center/cover;
+    background: url('intro section images/tinywow_abstract-futuristic-background-with-glowing-light-effect-vector_66680184.png') no-repeat center center/cover;
     background-color: #8593a9; /* Fallback for no image */
 }
 
