@@ -130,7 +130,7 @@ h2.gradient-text {
 
 
 #desc {
-    color: white;
+    color: white; !important;
 }
 
 
