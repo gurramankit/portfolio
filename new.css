@@ -92,7 +92,7 @@ nav ul li a:hover {
 .intro-section {
     text-align: center;
     padding: 100px 30px;
-    background: url('') no-repeat center center/cover;
+    background: url('https://www.bing.com/images/search?view=detailV2&ccid=QTMD%2bmna&id=25D5AA32F67F0344BA0F81B394ACB33AF25FB7BD&thid=OIP.QTMD-mnaS9ASLfczUreLrQHaCQ&mediaurl=https%3a%2f%2fstatic.vecteezy.com%2fsystem%2fresources%2fpreviews%2f000%2f701%2f690%2foriginal%2fabstract-polygonal-banner-background-vector.jpg&exph=2750&expw=9002&q=backgornd+banner+&simid=608001008697223415&FORM=IRPRST&ck=25DB1411C935C83073B05B824EB72ABB&selectedIndex=2&itb=0') no-repeat center center/cover;
     background-color: #8593a9; /* Fallback for no image */
 }
 
