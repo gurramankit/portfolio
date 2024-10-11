@@ -46,11 +46,6 @@ body {
 }
 
 
-.tool-icon{
-    width:100px;
-    height:100px;
-}
-
 
 /* Nav Bar */
 nav ul {
@@ -376,7 +371,7 @@ strong {
 }
 
 /* Removed redundant .tools class, keeping only .tools-icons */
-.tools-icons {
+.tool-icon {
     margin: 10px 0;
     display: flex;
     gap: 10px;
@@ -389,6 +384,7 @@ strong {
     height: 20px; /* Reduced from 30px */
     margin: 0 5px;
 }
+
 
 .popup {
     display: none;
