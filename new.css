@@ -632,11 +632,11 @@ button:hover {
 }
 
 .timeline-item.left:before {
-    left: calc(50% - 30px);
+    left: calc(50% - 20px);
 }
 
 .timeline-item.right:before {
-    left: calc(50% + 30px);
+    left: calc(50% + 20px);
 }
 
   
