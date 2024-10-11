@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(135deg, #ff6f61, #d42f2f); /* Vibrant gradient */
     background-image: url('/newport/WhatsApp\ Image\ 2024-10-09\ at\ 14.04.03_65717ab7.jpg'); /* Replace with actual path or use a solid color */
-    background-size: cover; /* Cover the entire section */
+    background-size: 100% 100%; /* Cover the entire section */
     background-position: center;
     text-align: center;
 }
