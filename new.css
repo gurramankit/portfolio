@@ -48,30 +48,53 @@ body {
 
 
 
-/* Nav Bar */
-nav ul {
-    list-style: none;
+/* Navbar Styling */
+.navbar {
     display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    background: linear-gradient(90deg, #333, #555); /* Gradient from dark gray to lighter gray */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+    position: fixed; /* Make navbar fixed at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Left Section for "Portfolio" */
+.navbar-left h2 {
+    color: white;
     margin: 0;
+    font-size: 24px;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 1.1rem;
+.navbar-left h2 a {
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    color: white;
 }
 
-nav ul li a:hover {
-    color: #ff9800;
+/* Right Section for Links */
+.navbar-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-right li {
+    margin-left: 20px;
+}
+
+.navbar-right li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-right li a:hover {
+    color: #f0f4f8; /* Light hover effect */
+    border-bottom: 2px solid white;
 }
 
 /* Button Styles */
