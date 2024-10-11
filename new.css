@@ -46,6 +46,12 @@ body {
 }
 
 
+.tool-icon{
+    width:100px;
+    height:100px;
+}
+
+
 /* Nav Bar */
 nav ul {
     list-style: none;
