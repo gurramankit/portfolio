@@ -106,8 +106,8 @@ nav ul li a:hover {
 }
 
 .profile-pic {
-    width: 200%;
-    height: 200%;
+    width: 270%;
+    height: 270%;
     object-fit: cover;
 }
 
