@@ -123,10 +123,11 @@ h2.gradient-text {
 
 .description {
     font-size: 1.2rem;
-    color: #555;
+    color: white;
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
 
 #desc {
     color: white;
