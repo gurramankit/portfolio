@@ -100,8 +100,8 @@ nav ul li a:hover {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid rgb(121, 136, 166);
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
 }
 
