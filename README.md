@@ -14,7 +14,7 @@ Clone this repository using:
 
 bash
 Copy code
-git clone https://github.com/yourusername/repository-name.git
+git clone [https://github.com/yourusername/repository-name.gi](https://gurramankit.github.io/portfolio/)
 Open index.html in your browser to view the website.
 
 License
